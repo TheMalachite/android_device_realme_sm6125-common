@@ -21,13 +21,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit some common Arrow stuff
 $(call inherit-product, vendor/arrow/config/common.mk)
+ARROW_GAPPS := true
+TARGET_BOOT_ANIMATION_RES := 720
 
 # Inherit from r5x device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
-
-TARGET_BOOT_ANIMATION_RES := 720
-TARGET_GAPPS_ARCH := arm64
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
 
 PRODUCT_BRAND := Realme
 PRODUCT_DEVICE := r5x
@@ -43,6 +41,3 @@ TARGET_VENDOR_DEVICE_NAME := r5x
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="r5x" \
     PRIVATE_BUILD_DESC="trinket-user 10 QKQ1.200209.002 release-keys"
-
-# Arrow Flags
-ARROW_GAPPS := true
