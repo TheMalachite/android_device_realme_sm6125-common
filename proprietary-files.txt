@@ -3130,6 +3130,8 @@ vendor/lib64/vendor.qti.hardware.vpp@1.3.so|9243e5231bd684db5874334e2c5b10b2432a
 vendor/etc/public.libraries.txt
 
 # NFC (Configs)
+vendor/etc/libese-nxp.conf
+vendor/etc/libnfc-nxp-pnscr.conf
 vendor/etc/sn100u_bootup.pnscr
 vendor/etc/sn100u_ese_disableIso.pnscr
 vendor/etc/sn100u_ese_disableIsoRead.pnscr
@@ -3146,6 +3148,9 @@ vendor/etc/sn100u_pnx_ese_sn.pnscr
 vendor/etc/sn100u_pnx_ndi.pnscr
 vendor/etc/sn100u_pnx_pcv.pnscr
 vendor/etc/sn100u_pnx_sst.pnscr
+vendor/euclid/product/vendor/etc/libnfc-nci.conf:vendor/etc/libnfc-nci.conf
+vendor/euclid/product/vendor/etc/libnfc-nxp.conf:vendor/etc/libnfc-nxp.conf
+vendor/euclid/product/vendor/etc/libnfc-nxp_RF.conf:vendor/etc/libnfc-nxp_RF.conf
 
 # Pasrmanager
 vendor/bin/hw/vendor.qti.power.pasrmanager@1.0-service
