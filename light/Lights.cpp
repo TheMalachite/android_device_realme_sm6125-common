@@ -7,7 +7,7 @@
 
 // Author := dev_harsh1998, Isaac Chen
 
-#define LOG_TAG "android.hardware.lights-service.r5x"
+#define LOG_TAG "android.hardware.lights-service.realme_sm6125"
 /* #define LOG_NDEBUG 0 */
 
 #include "Lights.h"

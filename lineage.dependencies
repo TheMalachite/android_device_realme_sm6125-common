@@ -1,6 +1,6 @@
 [
   {
-    "repository": "kernel_realme_r5x",
-    "target_path": "kernel/realme/r5x"
+    "repository": "android_kernel_realme_sm6125",
+    "target_path": "kernel/realme/sm6125"
   }
 ]
